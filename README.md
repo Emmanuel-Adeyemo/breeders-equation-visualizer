@@ -16,5 +16,5 @@ pip install -r requirements.txt
 streamlit run app.py              # Breeder's Equation Explorer
 ```
 
-## App deployed on Streamlit
+### App deployed on Streamlit
 aub.ie/breeders
