@@ -217,7 +217,7 @@ rate_min, rate_max, rate_step = (0.01, 0.15, 0.01) if mode == 'intensity' else (
 
 shrink_rate = st.slider(
     rate_label, min_value=rate_min, max_value=rate_max,
-    value=default_rate, step=rate_step, key=f'shrink_rate_{mode}',
+    value=0.02, step=rate_step, key=f'shrink_rate_{mode}',
     disabled=not shrink,
 )
 
