@@ -210,7 +210,7 @@ with col_b2:
 
 shrink_mode = 'Pronounced'
 mode = "intensity" if shrink_mode.startswith("Pronounced") else "fixed"
-default_rate = 0.06 if mode == "intensity" else 0.90
+default_rate = 0.02 if mode == "intensity" else 0.90
 rate_label = 'Decay rate (higher = faster plateau)' if mode == 'intensity' else 'Shrink factor per generation'
 rate_min, rate_max, rate_step = (0.01, 0.15, 0.01) if mode == 'intensity' else (0.80, 0.99, 0.01)
 
