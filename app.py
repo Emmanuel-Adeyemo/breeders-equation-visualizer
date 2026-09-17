@@ -24,9 +24,9 @@ st.title("Breeder's Equation Explorer")
 st.latex(r"R = h^2 S = i h^2 \sigma_P")
 
 for key, default in [
-    ('h2_slider', 0.40),
-    ('p_slider', 0.2),
-    ('n_gen_slider', 10),
+    ('h2_slider', 0.20),
+    ('p_slider', 0.3),
+    ('n_gen_slider', 7),
     ('shrink_checkbox', False)
     ]:
     if key not in st.session_state:
